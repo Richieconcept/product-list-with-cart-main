@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+    font-family: "Red Hat Text", sans-serif;
+}
+
+.cont1{
+    max-width: 100%  ;
+    height: auto;
+    background-color:   hsl(24, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+
+}
+
+.inntercont1{
+    width: 95%;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    justify-content: center;
+}
+
+
+.carthold{
+    width: 60%;
+
+}
+
+.carthold h1{
+    font-size: 3rem;
+    line-height: 2px;
+}
+
+.cartcont{
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.cartcontainer{
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+
+.cartcontainer h3{
+    font-size: 1rem;
+    color: rgb(48, 48, 48);
+    padding: 2px 0;
+}
+
+.cart{
+    width: 14rem;
+    height: 14rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.prdname{
+    color: rgb(123, 123, 123);
+    font-weight: 600;
+}
+
+.price{
+    color: brown;
+}
+
+
+
+
+.cartbtn{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 50px;
+    top: -18px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsl(14, 86%, 42%) ;
+    gap: 5px;
+
+}
+
+.cartbtn i{
+    color: hsl(14, 86%, 42%) ;
+    font-size: 10px;
+}
+
+/* this is carts area========= */
+
+.cart1{
+    background: url(/assets/images/image-creme-brulee-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart2{
+    background: url(/assets/images/image-meringue-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart3{
+    background: url(/assets/images/image-panna-cotta-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart4{
+    background: url(/assets/images/image-tiramisu-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart5{
+    background: url(/assets/images/image-baklava-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart6{
+    background: url(/assets/images/image-macaron-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart7{
+    background: url(/assets/images/image-cake-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart8{
+    background: url(/assets/images/image-panna-cotta-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cart9{
+    background: url(/assets/images/image-waffle-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.calculator{
+    background-color: rgb(255, 255, 255);
+    height: 45rem;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    
+}
+.calculator h1{
+    color:  hsl(14, 86%, 42%);
+    padding-bottom: 20px;
+}
+
+.calcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.calcontent b{
+    color:brown;
+    font-size: 18px;
+}
+
+
+.calcontent strong{
+    line-height: 25px;
+    color: rgb(57, 57, 57);
+}
+
+.calcontent span{
+    color: grey;
+    font-size: 15px;
+}
+
+
+.calculator hr{
+    margin: 20px 0;
+    border: 0.2 solid rgba(128, 128, 128, 0.405);
+
+}
+
+
+
+.calcontent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.greybox{
+    text-align: center;
+    padding: 15px 20px;
+    background-color: hsl(23, 60%, 87%);
+    border-radius: 10px;
+}
+
+
+.btncal{
+    padding: 20px 100px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(14, 86%, 42%) ;
+    font-size: 20px;
+    text-align: center;
+    margin-left:10px ;
+    margin-top: 3rem;
+}
+
+
+/*=================== media query starts here======= */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .cont1{
+        padding: 2rem 0;
+    }
+
+    .inntercont1{
+        margin: 0;
+        width: 73%;
+    }
+
+    .carthold{
+        width: 100%;
+    
+    }
+
+    .cart{
+        width: 15rem;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    .cont1{
+        padding: 3rem 0;
+    }
+
+    .inntercont1{
+        margin: 0;
+        width: 100%;
+    }
+
+ 
+
+    .carthold{
+        width:   15rem;
+    
+    }
+
+    .carthold h1{
+        font-size: 30px;
+    }
+
+    .calculator{
+        width: 20rem;
+        height: 25rem;
+    }
+    
+
+    
+}
